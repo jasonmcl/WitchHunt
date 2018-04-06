@@ -1,0 +1,8 @@
+.NameForm {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.NameForm * {
+    margin-top: 15px;
+}

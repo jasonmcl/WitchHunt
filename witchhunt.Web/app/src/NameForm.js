@@ -1,14 +1,15 @@
 import React from 'react';
 import {Input, Button} from 'antd';
+import "./NameForm.css";
 
 function NameForm(props) {
     return(
-        <div>
+        <div className="NameForm">
             <Input placeholder="Nickname"/>
-            <br/>
+            <Button onClick={props.onClick} type="primary">Create a room</Button>
+            <p>Or Enter A Room Code:</p>
             <Input placeholder="Room Code"/>
-            <br/>
-            <Button type="primary">Enter</Button>
+            <Button onClick={props.onClick} type="primary">Enter</Button>
         </div>
     );
 }
