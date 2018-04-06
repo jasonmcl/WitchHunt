@@ -1,0 +1,17 @@
+.GameRoom {
+    text-align: center;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.memberList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
